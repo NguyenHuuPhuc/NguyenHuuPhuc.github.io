@@ -4,9 +4,9 @@ jQuery(document).ready(function() {
 
     function b() {
         var a = {
-                zoom: 11,
+                zoom: 10,
                 scrollwheel: false,
-                center: new google.maps.LatLng(40.67, -73.94),
+                center: new google.maps.LatLng(10.762622, 106.660172),
                 styles: [{
                     "featureType": "landscape",
                     "stylers": [
@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
             b = document.getElementById("map"),
             c = new google.maps.Map(b, a);
         new google.maps.Marker({
-            position: new google.maps.LatLng(40.67, -73.94),
+            position: new google.maps.LatLng(10.762622, 106.660172),
             map: c,
             title: "Snazzy!"
         })
